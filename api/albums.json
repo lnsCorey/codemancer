@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "siteUrl": "https://lnscorey.github.io/codemancer",
+  "did": "did:web:lnscorey.github.io:codemancer",
+  "updatedAt": "2026-11-10T20:02:59.683Z",
+  "albums": [
+    {
+      "id": "album-297e62d5",
+      "canonicalUrl": "https://lnscorey.github.io/codemancer/api/albums.json#album-album-297e62d5",
+      "title": "Sanctum of the Codemancer",
+      "description": "Visual sigils and scrying-glass projections from the Astral Forge where human intent and machine execution converge.",
+      "coverUrl": "media/albums/album-297e62d5/f77d8a35dc65be82197a.thumb.jpg",
+      "tags": [
+        "codemancer",
+        "sanctum",
+        "architecture",
+        "indieweb"
+      ],
+      "photos": [
+        {
+          "id": "photo-486b4235",
+          "canonicalUrl": "https://lnscorey.github.io/codemancer/api/albums.json#photo-photo-486b4235",
+          "url": "media/albums/album-297e62d5/f77d8a35dc65be82197a.jpg",
+          "thumbUrl": "media/albums/album-297e62d5/f77d8a35dc65be82197a.thumb.jpg",
+          "caption": "The Sanctum Observatory — holographic system blueprints and cryptographic rings suspended above the cosmic forge.",
+          "altText": "The Sanctum Observatory — holographic system blueprints and cryptographic rings suspended above the cosmic forge.",
+          "tags": [
+            "sanctum",
+            "observatory",
+            "architecture"
+          ],
+          "width": 1376,
+          "height": 768,
+          "takenAt": "2026-11-10T20:02:59.266Z",
+          "createdAt": "2026-11-10T20:02:59.266Z",
+          "sha256": "f77d8a35dc65be82197a0e02c44b62018d5ba0156620a0db592eeb67f8fad4a2",
+          "bytes": 393495,
+          "mimeType": "image/jpeg",
+          "thumbSha256": "7057e6e54837f0e1b99c54e9668d2cc1e79a9c00119e1555e47cd9a4df03f924",
+          "thumbBytes": 53236,
+          "thumbWidth": 480,
+          "thumbHeight": 268
+        },
+        {
+          "id": "photo-23b676b1",
+          "canonicalUrl": "https://lnscorey.github.io/codemancer/api/albums.json#photo-photo-23b676b1",
+          "url": "media/albums/album-297e62d5/08d1afdf67f2b877852c.jpg",
+          "thumbUrl": "media/albums/album-297e62d5/08d1afdf67f2b877852c.thumb.jpg",
+          "caption": "Portrait of the Codemancer — channeling abstract syntax trees and Ed25519 verification runes.",
+          "altText": "Portrait of the Codemancer — channeling abstract syntax trees and Ed25519 verification runes.",
+          "tags": [
+            "codemancer",
+            "portrait",
+            "sigil"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "takenAt": "2026-11-10T20:02:59.537Z",
+          "createdAt": "2026-11-10T20:02:59.537Z",
+          "sha256": "08d1afdf67f2b877852cdd2504adcc07004a88042f3c0f77017d37c4b70e0017",
+          "bytes": 328273,
+          "mimeType": "image/jpeg",
+          "thumbSha256": "a1ce311b0ed2a04f31be09e0e5d1b3133d9c92e126a338c88b80e557bc129863",
+          "thumbBytes": 81152,
+          "thumbWidth": 480,
+          "thumbHeight": 480
+        }
+      ],
+      "createdAt": "2026-11-10T20:02:58.979Z",
+      "updatedAt": "2026-11-10T20:02:59.540Z",
+      "manifestUrl": "media/albums/album-297e62d5/manifest.json",
+      "slug": "sanctum-of-the-codemancer",
+      "pageUrl": "albums/sanctum-of-the-codemancer/",
+      "postToFeed": false,
+      "display": "card"
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-11-10T20:02:59.683Z",
+    "verificationMethod": "did:web:lnscorey.github.io:codemancer#key-1",
+    "signatureValue": "W-NppjI1v2ml98DKYir9S0QAJE79dHInkoZLjzZKqe-XIiX0Rp4B3YiGAExGHZAjkjlyoM8uJHxRTxh_49xWAA"
+  }
+}
