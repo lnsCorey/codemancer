@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "siteUrl": "https://lnscorey.github.io/codemancer",
   "did": "did:web:lnscorey.github.io:codemancer",
-  "updatedAt": "2026-11-10T20:02:59.683Z",
+  "updatedAt": "2026-11-11T02:13:26.223Z",
   "friends": [
     {
       "id": "friend-2f7c3640",
@@ -19,22 +19,6 @@
       "visibility": "public",
       "lastCrawledAt": "2026-11-10T20:02:58.757Z",
       "addedAt": "2026-11-10T20:02:58.222Z"
-    },
-    {
-      "id": "friend-f40aac2d",
-      "siteUrl": "https://bitphr3ak.net/social",
-      "did": "did:web:bitphr3ak.net:social",
-      "displayName": "Bitphr3ak",
-      "handle": "bitphr3ak.net",
-      "avatarUrl": "media/profile/avatar-e84ccbfd58ae2ea3faa8.jpg",
-      "bio": "Bitphr3ak is the sonic project of a boundary-breaking digitaldidact, a creator who fuses punk, grunge, metal, and alternative rock with the pulse of the digital age.\n\nHis AI-driven instrumentation and razor-edged lyrics remix tradition into something volatile, urgent, and unmistakably now.\n\nEach track is a collision of rebellion and reflection—where empathy meets dissonance, and self-awareness is sharpened into critique.\n\nBitphr3ak doesn’t soothe; he exposes. Misunderstanding, conflict, and discord are laid bare as warnings, reminders of the fractures running through our human experience.\n\nFrom attachment psychologyto socio-political fault lines, Bitphr3ak dissects the narratives we live inside, challenging perception and sparking conversation.\n\nStep into the world of Bitphr3ak—where innovation confronts chaos, and every note is a signal flare.",
-      "relationship": [
-        "Sonic Alchemist",
-        "Friend"
-      ],
-      "visibility": "public",
-      "lastCrawledAt": "2026-11-10T20:02:58.652Z",
-      "addedAt": "2026-11-10T20:02:58.195Z"
     },
     {
       "id": "friend-2babbbe4",
@@ -58,8 +42,8 @@
   "endorsements": [],
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-11-10T20:02:59.683Z",
+    "created": "2026-11-11T02:13:26.223Z",
     "verificationMethod": "did:web:lnscorey.github.io:codemancer#key-1",
-    "signatureValue": "dbMFHv-k4IEtv36-8g5uSQrcEnfY-GEVrRRSlSdUiCW1JM_S3qBiX0hXu3q5FY65nDXwVjFRQWVBk8W0oNjxDg"
+    "signatureValue": "9t1ntR1HvAyntVsJtyhI067ua7cLC8T7pS5QZ9gX3uDvpwH7WNPWnMLZNog2_JTnXsk_k2hsbvPZ1NKsNCGeCA"
   }
 }

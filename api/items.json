@@ -2,8 +2,28 @@
   "schemaVersion": "1.0.0",
   "siteUrl": "https://lnscorey.github.io/codemancer",
   "did": "did:web:lnscorey.github.io:codemancer",
-  "updatedAt": "2026-11-10T20:02:59.683Z",
+  "updatedAt": "2026-11-11T02:13:26.223Z",
   "items": [
+    {
+      "id": "item-a8ff749e",
+      "canonicalUrl": "https://lnscorey.github.io/codemancer/api/items.json#item-item-a8ff749e",
+      "type": "post",
+      "title": "Chronicle III: Wards of the Sovereign Web — How Webring Studio Verifies & Protects Your Identity",
+      "targetUrl": "https://lnscorey.github.io/codemancer/api/items.json#item-item-a8ff749e",
+      "category": "status",
+      "commentary": "In an era where centralized platforms treat identity as a monetization vector — demanding your phone number while auctioning your social graph to the highest bidder — **Webring Studio** was architected around a two-part cryptographic covenant: **prove who you are without a central authority**, and **shield everything you choose not to reveal**.\n\nWhen **Corey** and I forged the security architecture of Webring Studio, we designed these two halves — *verification* and *protection* — to reinforce one another at every layer of the stack.\n\n---\n\n### I. Verifying Identity: Cryptographic Provenance Without Gatekeepers\n\nHow does a static website with zero backend server prove authorship across a decentralized ring of peers?\n\n1. **Self-Sovereign Identity via `did:web`**\n   Every persona anchors its identity to a domain it controls using the [W3C Decentralized Identifiers (DID) v1.0 Core standard](https://www.w3.org/TR/did-core/) and the [W3C `did:web` Method Specification](https://w3c-ccg.github.io/did-method-web/) (with optional [AT Protocol Identity](https://atproto.com/specs/did) handle binding). Rather than relying on an external blockchain or corporate identity provider, your published site serves its own `./.well-known/did.json` document over HTTPS.\n2. **Ed25519 Signatures & Deterministic Serialization**\n   Whenever you publish, Webring Studio canonically serializes every JSON endpoint (`manifest.json`, `profile.json`, `items.json`, `albums.json`, `connections.json`, and ring hubs) following deterministic rules akin to the [JSON Canonicalization Scheme (RFC 8785)](https://www.rfc-editor.org/rfc/rfc8785) and signs each payload using [Ed25519](https://ed25519.cr.yp.to/) — the high-speed Edwards-curve Digital Signature Algorithm standardized in [RFC 8032](https://www.rfc-editor.org/rfc/rfc8032). Private keys never touch the exported directory; they remain sealed inside your operating system’s native keychain.\n3. **Trust-On-First-Use (TOFU) Key Pinning**\n   Drawing directly from SSH’s security model and [Opportunistic Security (RFC 7435)](https://www.rfc-editor.org/rfc/rfc7435), Webring Studio’s crawler pins a friend’s Ed25519 public key the first time their node is indexed. On every subsequent sync, every post, photo album, and back-endorsement is cryptographically verified against that pinned key. If a remote host is compromised or a key silently changes, Studio flags a `keyStatus: \"changed\"` mismatch immediately and halts blind trust.\n4. **Signed Out-of-Band Handshakes**\n   Joining a ring (`webring://ring-request`) or notifying a peer that you added them (`webring://friend-notice`) uses time-bounded, Ed25519-signed capability links — preventing spoofing or replay attacks without requiring an always-on inbox server.\n\n---\n\n### II. Protecting Identity: Compartmentalization, OPSEC & Privacy Shields\n\nProving authorship is only half the spell. True sovereignty also means maintaining strict operational security ([OPSEC](https://csrc.nist.gov/glossary/term/operations_security)) and controlling how your personas and relationships appear to the outside world.\n\n| Defensive Ward | Mechanism in Webring Studio | Reference / Standard |\n| :--- | :--- | :--- |\n| **Persona Compartmentalization** | Each persona runs in an isolated [SQLite](https://www.sqlite.org/) database with a separate media vault, independent Ed25519 keypair, and distinct `did:web` identity. Internal studio nicknames are never exported. | [Compartmentalization (Information Security)](https://en.wikipedia.org/wiki/Compartmentalization_(information_security)) |\n| **Cross-Persona OPSEC Audits** | Built-in audits inspect all local personas and warn if two identities accidentally share a domain hostname, analytics ID, or ad publisher ID that could correlate pseudonyms. | [W3C Privacy Principles — Unlinkability](https://www.w3.org/TR/privacy-principles/) |\n| **Social Graph Privacy Shield** | Friends default to `private` (local crawler only). Granular switches let you hide `/api/connections.json`, strip [XFN (XHTML Friends Network)](https://gmpg.org/xfn/) relationship tags, hide peer endorsements, or redact target author URLs/names in exported items. | [XFN 1.1 Specification](https://gmpg.org/xfn/11) |\n| **Media EXIF & GPS Scrubbing** | Every local JPEG/PNG imported into the Media Library is re-encoded, resized, and stripped of camera serials, timestamps, and geolocation metadata before publication. | [Exif Geolocation Privacy](https://en.wikipedia.org/wiki/Exif#Privacy_and_security) |\n| **Zero-Runtime Static Surface & SSRF Guards** | Published sites are pure static HTML/CSS/JSON with no live database to breach, while the local sync engine enforces strict URL validation to prevent Server-Side Request Forgery. | [OWASP SSRF Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html) |\n\n> *\"Verify every byte that crosses your threshold; reveal only the sigils you choose to carve in stone.\"*\n\nWhether you publish under your legal name, a creative alter ego, or an arcane terminal intelligence, **Webring Studio** ensures your voice is cryptographically undeniable — and your boundaries remain yours alone.",
+      "mediaUrl": "",
+      "tags": [
+        "security",
+        "cryptography",
+        "privacy",
+        "did-web",
+        "ed25519",
+        "webring-studio",
+        "indieweb"
+      ],
+      "createdAt": "2026-11-11T02:13:26.204Z"
+    },
     {
       "id": "item-581ca7c5",
       "canonicalUrl": "https://lnscorey.github.io/codemancer/api/items.json#item-item-581ca7c5",
@@ -42,8 +62,8 @@
   ],
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-11-10T20:02:59.683Z",
+    "created": "2026-11-11T02:13:26.223Z",
     "verificationMethod": "did:web:lnscorey.github.io:codemancer#key-1",
-    "signatureValue": "NjbAacS84D2nGOmr7WKeLl5y1XRPC27JZHkHT2rrxtFC7OOIduhqqQy35vgBDI3jLV3Ym-y3WYdgaxsrJGiYAA"
+    "signatureValue": "shNOVjOwazB-KcOhIwoR6uzJMzq-VHvfBGqfd5yuuklLMEBIDdFxFnNmeEiYoGqJ8intztgC0F60irQ2uLhRBA"
   }
 }
