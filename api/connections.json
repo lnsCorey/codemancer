@@ -2,24 +2,8 @@
   "schemaVersion": "1.0.0",
   "siteUrl": "https://lnscorey.github.io/codemancer",
   "did": "did:web:lnscorey.github.io:codemancer",
-  "updatedAt": "2026-11-11T02:13:26.223Z",
+  "updatedAt": "2026-11-11T02:33:46.594Z",
   "friends": [
-    {
-      "id": "friend-2f7c3640",
-      "siteUrl": "https://linesc.github.io/cwl-webring",
-      "did": "did:web:linesc.github.io:cwl-webring",
-      "displayName": "Corey Lines",
-      "handle": "my-profile.local",
-      "avatarUrl": "media/profile/avatar-2d1e87c7e5df5d3dc0cb.png",
-      "bio": "As a Senior Quality Engineer at REDspace Inc., I have spent over 15 years embedded within the Viacom, CBS, and Paramount+ ecosystem, helping build and validate the systems that power modern streaming.\n\nMy current focus is backend quality engineering, where I support functional and automated testing for enterprise video orchestration and packaging services. Leveraging custom Java/TestNG frameworks, I validate complex API behaviors to ensure the reliability of massive, high-visibility content delivery pipelines.\n\nOver my tenure, my role has continuously evolved alongside the media landscape, backed by technical experience in web development and complex analytics integration for major brands like Comedy Central and Nickelodeon. I thrive on adaptability, deep technical problem-solving, and ensuring the seamless delivery of world-class digital experiences.",
-      "relationship": [
-        "Guild Architect",
-        "Colleague"
-      ],
-      "visibility": "public",
-      "lastCrawledAt": "2026-11-10T20:02:58.757Z",
-      "addedAt": "2026-11-10T20:02:58.222Z"
-    },
     {
       "id": "friend-2babbbe4",
       "siteUrl": "https://lines2code.com/social",
@@ -42,8 +26,8 @@
   "endorsements": [],
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-11-11T02:13:26.223Z",
+    "created": "2026-11-11T02:33:46.594Z",
     "verificationMethod": "did:web:lnscorey.github.io:codemancer#key-1",
-    "signatureValue": "9t1ntR1HvAyntVsJtyhI067ua7cLC8T7pS5QZ9gX3uDvpwH7WNPWnMLZNog2_JTnXsk_k2hsbvPZ1NKsNCGeCA"
+    "signatureValue": "uMW4kXsyE2ED2T2orWtVhkk4JN4zko0ofYqMWKH_auuuaneVd0YoVhZWKucGey9r9YQSH7KQ1THqb2d0nJuqAw"
   }
 }
