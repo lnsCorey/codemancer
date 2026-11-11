@@ -92,14 +92,6 @@
             "url": "https://lines2code.com/social"
           },
           {
-            "label": "Bitphr3ak — Sonic Alter Ego",
-            "url": "https://bitphr3ak.net/social"
-          },
-          {
-            "label": "Corey Lines — Engineering Node",
-            "url": "https://linesc.github.io/cwl-webring"
-          },
-          {
             "label": "GitHub Repository (lnsCorey/codemancer)",
             "url": "https://github.com/lnsCorey/codemancer"
           },
@@ -123,11 +115,11 @@
     }
   ],
   "atprotoHandle": "",
-  "updatedAt": "2026-11-10T20:02:59.683Z",
+  "updatedAt": "2026-11-11T02:35:03.616Z",
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-11-10T20:02:59.683Z",
+    "created": "2026-11-11T02:35:03.616Z",
     "verificationMethod": "did:web:lnscorey.github.io:codemancer#key-1",
-    "signatureValue": "QXzGXdkX0oSWsz81h5roKQwgeWEWzUWTmupV83twI3wtkhnTLxyWUMfHC7UnDOs-8UcRt4XLKLjoPgrYhj_ZBQ"
+    "signatureValue": "q4AEaKI4LTxxT8hKPGYoADjJyfCNAZOe6mWj4Ar-tIn19VejrD9JYRw2N4QHJkGiU3mAbY0Lu4XT6X_N1c8vAQ"
   }
 }
