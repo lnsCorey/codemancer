@@ -80,7 +80,7 @@
   ],
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-11-12T02:23:43.770Z",
+    "created": "2026-11-12T02:31:00.541Z",
     "verificationMethod": "did:web:lnscorey.github.io:codemancer#key-1",
     "signatureValue": "jwCJa7BcAZbTK_m1dF4tscF75pA8XQz9_JYOZFCmdH740SWFAFSHvCknxBOp3IMaPpWR4OVFKWFESOfpLTZhAw"
   }
