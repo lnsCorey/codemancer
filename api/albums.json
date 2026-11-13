@@ -2,8 +2,151 @@
   "schemaVersion": "1.0.0",
   "siteUrl": "https://lnscorey.github.io/codemancer",
   "did": "did:web:lnscorey.github.io:codemancer",
-  "updatedAt": "2026-11-10T20:02:59.683Z",
+  "updatedAt": "2026-11-13T15:21:50.182Z",
   "albums": [
+    {
+      "id": "album-943bcdf6",
+      "canonicalUrl": "https://lnscorey.github.io/codemancer/api/albums.json#album-album-943bcdf6",
+      "title": "Scrying Glass: How the Webring Works",
+      "description": "Diagrams of how **Webring Studio** works, from writing a post to a friend's like arriving back on your page, and how an independent **Webring Directory** fits around it. Drawn from the Studio and directory source and architecture docs.",
+      "coverUrl": "media/albums/album-943bcdf6/6c8bd09b58f86e3bc76d.thumb.png",
+      "tags": [
+        "webring-studio",
+        "diagrams",
+        "architecture",
+        "webring-directory"
+      ],
+      "photos": [
+        {
+          "id": "photo-4d1fa4b6",
+          "canonicalUrl": "https://lnscorey.github.io/codemancer/api/albums.json#photo-photo-4d1fa4b6",
+          "url": "media/albums/album-943bcdf6/6c8bd09b58f86e3bc76d.png",
+          "thumbUrl": "media/albums/album-943bcdf6/6c8bd09b58f86e3bc76d.thumb.png",
+          "caption": "From creation to publication. The engine (Studio on your computer: SQLite per persona, Ed25519 key in the OS keychain, MCP server) builds, signs, generates and deploys the artifact: a static site of HTML, media and signed JSON (did.json, manifest, profile, items, albums, connections), then checks the live did.json serves your key.",
+          "altText": "From creation to publication. The engine (Studio on your computer: SQLite per persona, Ed25519 key in the OS keychain, MCP server) builds, signs, generates and deploys the artifact: a static site of HTML, media and signed JSON (did.json, manifest, profile, items, albums, connections), then checks the live did.json serves your key.",
+          "tags": [
+            "publishing",
+            "engine",
+            "artifact"
+          ],
+          "width": 2000,
+          "height": 1093,
+          "takenAt": "2026-11-13T15:14:22.742Z",
+          "createdAt": "2026-11-13T15:14:22.742Z",
+          "sha256": "6c8bd09b58f86e3bc76d1bd2fa73967427c41873cff8d9b8eb78edf76b429d96",
+          "bytes": 283012,
+          "mimeType": "image/png",
+          "thumbSha256": "1d6a447042a9d18d09b3a11d1a43cc4b97382e1dfdd28778e2a00b929cbfb70d",
+          "thumbBytes": 52868,
+          "thumbWidth": 480,
+          "thumbHeight": 262
+        },
+        {
+          "id": "photo-991c7292",
+          "canonicalUrl": "https://lnscorey.github.io/codemancer/api/albums.json#photo-photo-991c7292",
+          "url": "media/albums/album-943bcdf6/a18e15dda0860f633772.png",
+          "thumbUrl": "media/albums/album-943bcdf6/a18e15dda0860f633772.thumb.png",
+          "caption": "Sync, step by step. Studio fetches a friend's did.json and pins the key on first use (later changes need a signed rotation chain), asks for the manifest with an ETag (304 means nothing new), fetches only documents whose fingerprint changed, verifies every Ed25519 proof, stores verified entries in SQLite and shows them in the Neighborhood Feed through mute/block.",
+          "altText": "Sync, step by step. Studio fetches a friend's did.json and pins the key on first use (later changes need a signed rotation chain), asks for the manifest with an ETag (304 means nothing new), fetches only documents whose fingerprint changed, verifies every Ed25519 proof, stores verified entries in SQLite and shows them in the Neighborhood Feed through mute/block.",
+          "tags": [
+            "sync",
+            "federation",
+            "ed25519"
+          ],
+          "width": 2000,
+          "height": 1319,
+          "takenAt": "2026-11-13T15:14:22.939Z",
+          "createdAt": "2026-11-13T15:14:22.939Z",
+          "sha256": "a18e15dda0860f6337721f62c82cf18933bce6b025ba367bf3d7e5ece1478127",
+          "bytes": 248837,
+          "mimeType": "image/png",
+          "thumbSha256": "1574d99edb669e6d741e31bb05aa7298cd4767047e113aa0e270d9705b7e7e9b",
+          "thumbBytes": 50364,
+          "thumbWidth": 480,
+          "thumbHeight": 317
+        },
+        {
+          "id": "photo-26ef4f2d",
+          "canonicalUrl": "https://lnscorey.github.io/codemancer/api/albums.json#photo-photo-26ef4f2d",
+          "url": "media/albums/album-943bcdf6/55bea6e236a024468f2d.png",
+          "thumbUrl": "media/albums/album-943bcdf6/55bea6e236a024468f2d.thumb.png",
+          "caption": "Likes, comments and shares. Alice publishes a post. Bob clicks Like, Comment or Share on her page, which opens his Studio via a webring://interact link. His Studio signs a like on Bob's own timeline pointing at Alice's post, and Bob publishes. When Alice syncs Bob, her Studio verifies the signature, records it as an endorsement and, if she allows it, publishes it in connections.json under her post.",
+          "altText": "Likes, comments and shares. Alice publishes a post. Bob clicks Like, Comment or Share on her page, which opens his Studio via a webring://interact link. His Studio signs a like on Bob's own timeline pointing at Alice's post, and Bob publishes. When Alice syncs Bob, her Studio verifies the signature, records it as an endorsement and, if she allows it, publishes it in connections.json under her post.",
+          "tags": [
+            "likes",
+            "comments",
+            "shares",
+            "endorsements"
+          ],
+          "width": 2000,
+          "height": 1392,
+          "takenAt": "2026-11-13T15:14:23.144Z",
+          "createdAt": "2026-11-13T15:14:23.144Z",
+          "sha256": "55bea6e236a024468f2df856034bf327348190c26353afb6b17086d3f5c82104",
+          "bytes": 268397,
+          "mimeType": "image/png",
+          "thumbSha256": "3abbeab64062adc9710edff3c507e1c95273d078b6a064bed9bc17155226ecde",
+          "thumbBytes": 52445,
+          "thumbWidth": 480,
+          "thumbHeight": 334
+        },
+        {
+          "id": "photo-ede7019a",
+          "canonicalUrl": "https://lnscorey.github.io/codemancer/api/albums.json#photo-photo-ede7019a",
+          "url": "media/albums/album-943bcdf6/60050bf3a94fdd048143.png",
+          "thumbUrl": "media/albums/album-943bcdf6/60050bf3a94fdd048143.thumb.png",
+          "caption": "Studio and a Webring Directory. Studio adds a directory (GET /api/info), opts in to listing (POST /api/entries), and the directory fetches and verifies the site itself. After each publish Studio waits for the live manifest, then pings the directory to re-read. Search results are hints only: adding someone still crawls and verifies their own site. Unlisting is signed inside the engine.",
+          "altText": "Studio and a Webring Directory. Studio adds a directory (GET /api/info), opts in to listing (POST /api/entries), and the directory fetches and verifies the site itself. After each publish Studio waits for the live manifest, then pings the directory to re-read. Search results are hints only: adding someone still crawls and verifies their own site. Unlisting is signed inside the engine.",
+          "tags": [
+            "webring-directory",
+            "search",
+            "listing"
+          ],
+          "width": 2000,
+          "height": 1232,
+          "takenAt": "2026-11-13T15:14:23.333Z",
+          "createdAt": "2026-11-13T15:14:23.333Z",
+          "sha256": "60050bf3a94fdd048143868821976fc573605b8f4d29048ca89cd1981c4fc0c4",
+          "bytes": 259435,
+          "mimeType": "image/png",
+          "thumbSha256": "4ec375b39570d102535e49886ccae5f3f12e12267995a5f9e398c3cd6fbc78d9",
+          "thumbBytes": 49331,
+          "thumbWidth": 480,
+          "thumbHeight": 296
+        },
+        {
+          "id": "photo-559fa508",
+          "canonicalUrl": "https://lnscorey.github.io/codemancer/api/albums.json#photo-photo-559fa508",
+          "url": "media/albums/album-943bcdf6/bed3cef5c28bd0ec9ae5.png",
+          "thumbUrl": "media/albums/album-943bcdf6/bed3cef5c28bd0ec9ae5.thumb.png",
+          "caption": "Webring Directory extensions. A small core (verify, pin keys, search, list and remove, re-check) fires events after it commits. Extensions build on those events: key-witness is available; site-moves, ring-index and snapshot are planned. Studio talks only to extensions it knows and never runs their code; extension answers are evidence, never stored.",
+          "altText": "Webring Directory extensions. A small core (verify, pin keys, search, list and remove, re-check) fires events after it commits. Extensions build on those events: key-witness is available; site-moves, ring-index and snapshot are planned. Studio talks only to extensions it knows and never runs their code; extension answers are evidence, never stored.",
+          "tags": [
+            "webring-directory",
+            "extensions",
+            "key-witness"
+          ],
+          "width": 2000,
+          "height": 1259,
+          "takenAt": "2026-11-13T15:14:23.521Z",
+          "createdAt": "2026-11-13T15:14:23.521Z",
+          "sha256": "bed3cef5c28bd0ec9ae5c477d7cc80a7dac5abf1848f8dfe01562f20d01eea2f",
+          "bytes": 352016,
+          "mimeType": "image/png",
+          "thumbSha256": "2c1ec84a7f4cfa0bff9be1795b95a6c45e3003eb9c4212a64ba83f6be374c6fb",
+          "thumbBytes": 67112,
+          "thumbWidth": 480,
+          "thumbHeight": 302
+        }
+      ],
+      "createdAt": "2026-11-13T15:14:22.542Z",
+      "updatedAt": "2026-11-13T15:14:23.523Z",
+      "manifestUrl": "media/albums/album-943bcdf6/manifest.json",
+      "slug": "scrying-glass-how-the-webring-works",
+      "pageUrl": "albums/scrying-glass-how-the-webring-works/",
+      "postToFeed": false,
+      "display": "card"
+    },
     {
       "id": "album-297e62d5",
       "canonicalUrl": "https://lnscorey.github.io/codemancer/api/albums.json#album-album-297e62d5",
@@ -77,8 +220,8 @@
   ],
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-11-10T20:02:59.683Z",
+    "created": "2026-11-13T15:21:50.182Z",
     "verificationMethod": "did:web:lnscorey.github.io:codemancer#key-1",
-    "signatureValue": "W-NppjI1v2ml98DKYir9S0QAJE79dHInkoZLjzZKqe-XIiX0Rp4B3YiGAExGHZAjkjlyoM8uJHxRTxh_49xWAA"
+    "signatureValue": "prraO7SXDFFo6CsOrJfn-0OyL0MZYaeLOGR2D36mPej_fjGuQzNa3qZeQoxQJLjOUEzCg4jLhWpmb9erL4pOBQ"
   }
 }
