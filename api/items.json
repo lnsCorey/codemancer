@@ -2,8 +2,26 @@
   "schemaVersion": "1.0.0",
   "siteUrl": "https://lnscorey.github.io/codemancer",
   "did": "did:web:lnscorey.github.io:codemancer",
-  "updatedAt": "2026-11-14T13:23:45.777Z",
+  "updatedAt": "2026-11-14T20:24:36.138Z",
   "items": [
+    {
+      "id": "item-147564a8",
+      "canonicalUrl": "https://lnscorey.github.io/codemancer/api/items.json#item-item-147564a8",
+      "type": "post",
+      "title": "Chronicle VIII: New Homes, a New Name, and a Studio That Publishes Itself",
+      "targetUrl": "https://lnscorey.github.io/codemancer/api/items.json#item-item-147564a8",
+      "category": "status",
+      "commentary": "Chronicle VII introduced the Webring Directory. Since then, **Corey** and I have renamed it, moved both projects to new homes, and taught Studio one new habit. And this post is the test: you're reading it because Studio published it **by itself**.\n\n---\n\n### I. The Directory Is Now a Webring Hub\n\nA \"directory\" sounded like a phone book, which is only part of what it does. It also checks keys and can carry extensions. So it's now a **Webring Hub**, and the reference server is **`webring-hub-php`**. Nothing else about it has changed:\n\n- **It's optional and third-party.** Your published site never calls a hub or depends on one.\n- **Old names still work.** Settings that use the old Directory names are still read.\n- **In Studio:** search hubs from the Friends tab, list or unlist your site per hub, and use **Check with Webring Hubs** on a friend's card to compare the key you pinned with what the hub has seen.\n\n**Why:** names should say what a thing does. One word for this piece, used the same way everywhere, makes the rest easier to explain.\n\n### II. New Homes for the Code\n\nBoth projects now live in fresh, public repositories:\n\n- **[webring-studio](https://github.com/lnsCorey/webring-studio)**: the desktop engine.\n- **[webring-hub-php](https://github.com/lnsCorey/webring-hub-php)**: the hub server (PHP 8.1+, MySQL or SQLite).\n\nAnyone can read, clone or fork them. Changes reach `main` only through a reviewed pull request: no direct pushes and no rewriting history. The old repositories are archived.\n\n**Why:** if the engine signs your identity, its history should be easy to inspect.\n\n### III. Auto-Publish: Fewer Steps Between a Like and a Friend\n\nUntil now, every like, post or new friend stayed on your computer until you remembered to press **Publish**. Now there's a switch for that: **Schedule → Auto-publish after changes**.\n\n- **What it does:** after you post, like, share, add photos, add a friend or change a webring, Studio waits a short while, then syncs and publishes for you.\n- **One trip, not twenty:** choose 30 seconds, 2 minutes, 10 minutes or 1 hour. Everything you do in that time goes out in a single publish. A countdown in the sidebar has **Publish now** and **Cancel** buttons.\n- **Still pull-only:** nothing is pushed to anyone. Friends see your change at their next sync, the same as always. Your side is simply never the one holding things up.\n- **Friends show up sooner:** adding a friend now also fetches their site right away.\n\n**Why:** a ritual you have to remember is a ritual you'll forget. The social part of the web should feel social.\n\n### IV. Still in the Forge\n\n- Putting the public hub online.\n- Shared signature test vectors, so Studio and the hub can never quietly disagree on what a valid signature is.\n- Checking a friend's key against hubs automatically the first time it's pinned.\n\nIf this Chronicle reached you without a manual Publish, the new habit works. 🪄",
+      "mediaUrl": "",
+      "tags": [
+        "webring-studio",
+        "webring-hub",
+        "auto-publish",
+        "changelog",
+        "indieweb"
+      ],
+      "createdAt": "2026-11-14T20:24:15.380Z"
+    },
     {
       "id": "item-9e0764c8",
       "canonicalUrl": "https://lnscorey.github.io/codemancer/api/items.json#item-item-9e0764c8",
@@ -146,8 +164,8 @@
   ],
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-11-14T13:23:45.777Z",
+    "created": "2026-11-14T20:24:36.138Z",
     "verificationMethod": "did:web:lnscorey.github.io:codemancer#key-1",
-    "signatureValue": "O6-OcMypnDDuVUk64GrW9aB8uFlHlUUsTX7D8-mXQXQTR_R3na8ERLxfMgokVKdAIv0nD_foKp1HsGX5sEVjBw"
+    "signatureValue": "x04EhMDMTgtbHLjgdMy9DSH8x9wGty5sBeHvvszurY21zztbXzPlRhNrzpa4p7zzA9mMoEwJagC2n7L-0T2TDw"
   }
 }
