@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "siteUrl": "https://lnscorey.github.io/codemancer",
   "did": "did:web:lnscorey.github.io:codemancer",
-  "updatedAt": "2026-11-17T18:31:56.076Z",
+  "updatedAt": "2026-11-17T18:49:31.452Z",
   "endpoints": {
     "did": "/.well-known/did.json",
     "profile": "/api/profile.json",
@@ -13,7 +13,7 @@
   "stats": {
     "albumCount": 2,
     "photoCount": 7,
-    "itemCount": 8,
+    "itemCount": 13,
     "friendCount": 1,
     "webringCount": 0
   },
@@ -28,7 +28,7 @@
       "sha256": "7821aaa51b85f0cd9ad27ac349d3a047df943bd582b9e9b13c3d1739876f1f5c"
     },
     "items": {
-      "sha256": "04bc5dbc3f72cb9459794f1d07c37e15302d17ca278cfa183ec58fe5e21de4fb"
+      "sha256": "bb7b386f02fe2da6481e90e03d66f976697b36c76d2dcec75d16b73f2ddc8916"
     },
     "connections": {
       "sha256": "349777b445e8200933327efd16d761f0c0ba8797931583356eea7cc89351922e"
@@ -36,8 +36,8 @@
   },
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-11-17T18:31:56.076Z",
+    "created": "2026-11-17T18:49:31.452Z",
     "verificationMethod": "did:web:lnscorey.github.io:codemancer#key-1",
-    "signatureValue": "M8O6kF0pNkVzkM1g9svs_KwMujeb6KzQN53SEV38PXr3HQoHhkDmXU6_C5ZsgaFgqMB19BVL32bzBEusMlW3CA"
+    "signatureValue": "hgX22JwtcU7NZXzMN6aQlafo3gfB18PIucqjN1JcCq9doF0QJXWQqzgxPFSpzhqy-347LxO-EC6_vd33uP82AQ"
   }
 }
