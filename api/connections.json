@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "siteUrl": "https://lnscorey.github.io/codemancer",
   "did": "did:web:lnscorey.github.io:codemancer",
-  "updatedAt": "2026-11-14T20:24:36.138Z",
+  "updatedAt": "2026-11-17T18:31:56.076Z",
   "friends": [
     {
       "id": "friend-2babbbe4",
@@ -18,7 +18,6 @@
         "Friend"
       ],
       "visibility": "public",
-      "lastCrawledAt": "2026-11-14T20:24:36.081Z",
       "addedAt": "2026-11-10T20:02:58.166Z"
     }
   ],
@@ -26,8 +25,8 @@
   "endorsements": [],
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2026-11-14T20:24:36.138Z",
+    "created": "2026-11-17T18:31:56.076Z",
     "verificationMethod": "did:web:lnscorey.github.io:codemancer#key-1",
-    "signatureValue": "YKvrdmtgQr7v0oj0WNRMfmS6_V3VReOSDxlIza-GXXpmnNib7NWsGCkfjUBYCY4sSr4eVAHhilgdThM3HfgFAA"
+    "signatureValue": "YC9nALIi4-yiV_nFAqLq9BC-NaQp-CEL7p7nue75p0cUfEwSf_nePKoDvNAOSdvdXBCbrXW6xkoqa51QjGv2Aw"
   }
 }
